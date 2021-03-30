@@ -6,7 +6,7 @@
 
 char text[MAX][LEN];
 
-void main(void)
+int main(void)
 {
 	register int t,i,j;
 	printf("\n=======================");
@@ -25,4 +25,5 @@ void main(void)
 			putchar('\n');
 		}
 	}
+return 0;
 }

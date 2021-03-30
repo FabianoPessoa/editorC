@@ -19,6 +19,7 @@
 :set ruler
 " Visualiza tab
 :set list
+:set listchars=tab:>.
 " Forc,a quebra de linha
 :set nowrap
 " Apresenta n histo'rico
@@ -144,3 +145,11 @@ if &term =~ 'xterm-256color'    " mintty identifies itself as xterm-compatible
   endif
   " set termguicolors           " Uncomment to allow truecolors on mintty
 endif
+"=========================================================
+" ---------- Configurac,a'o de Arquivos -----------------
+" ---------------------------------------------------------
+:e! main.c
+:tabnew
+:e! _vimrc.vim
+:tabnew
+:e! configure.bat
