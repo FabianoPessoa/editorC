@@ -8,22 +8,23 @@ char text[MAX][LEN];
 
 int main(void)
 {
-	register int t,i,j;
-	printf("\n=======================");
-	printf("\n*******-:Editor:-******");
-	printf("\n-----------------------\n");
+	/*register int t,i,j;*/
+	register int t;
+	printf("\n====================================");
+	printf("\n**********-:{EditorC}:-*************");
+	printf("\n----------------------------------\n");
 	for(t=0;t<MAX;t++)
 	{	
 		printf("%d: ",t);
 		gets(text[t]);
 		if(!*text[t]) break;
 	}
-	for(i=0;i<t;i++)
+/*	for(i=0;i<t;i++)
 	{
 		for(j=0;text[i][j];j++)
 		{
 			putchar('\n');
 		}
-	}
+	}*/
 return 0;
 }
