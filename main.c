@@ -15,10 +15,11 @@ int main(void)
 	printf("\n----------------------------------\n");
 	for(t=0;t<MAX;t++)
 	{	
-		printf("%d: ",t);
+		printf("%d: ",t+1);
 		gets(text[t]);
 		if(!*text[t]) break;
 	}
+	printf("\n Exit Edito{C}");
 /*	for(i=0;i<t;i++)
 	{
 		for(j=0;text[i][j];j++)
