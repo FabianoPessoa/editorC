@@ -1,0 +1,25 @@
+
+*** These modified files were found in JOE when it aborted on Thu Apr  8 12:13:54 2021
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+arquivo.txt
+
+*** File 'arquivo.txt'
+Fabiano de Sousa Pessoa
+$Fabiano de Sousa Pesoa
+Fabiano de Sousa Pessoa
+$
+
+:q
+$$
+
+
+
+\n\n
+clqq
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
