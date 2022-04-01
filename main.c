@@ -1,3 +1,18 @@
+/*
+*******************************************************
+* Compile o co'digo com:
+* C:\> gcc main.c -o editor
+* Escreva o texto:
+* C:\> editor texto.txt
+* Para terminar e escreve o programa escreva o caracter $
+* Compilada: gcc
+* CopyRight: Fabiano de Sousa Pessoa
+* Date: 01/04/2022
+****************************************************
+*/
+
+
+
 /* KTOD: Do teclado para o disco. */
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,6 +61,7 @@ int main(int argc, char *argv[])
 		/* Alterar para escrever depois do fim do arquivo EOF */
 		/* if */
 		ch=getchar();
+		/* colocar posicionamento do cursor */
 		putc(ch,fp);
 
 	}while(ch!='$');
@@ -54,4 +70,5 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+
 
