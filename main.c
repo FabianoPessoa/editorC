@@ -8,6 +8,9 @@
 * Compilada: gcc
 * CopyRight: Fabiano de Sousa Pessoa
 * Date: 01/04/2022
+* Para verificar conflito entre co'digos 
+* fac,a renomei um co'difo e fa,ca:
+* C:\> diff -w -B codigo1.txt codigo2.txt
 ****************************************************
 */
 
