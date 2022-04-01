@@ -11,6 +11,19 @@
 * Para verificar conflito entre co'digos 
 * fac,a renomei um co'difo e fa,ca:
 * C:\> diff -w -B codigo1.txt codigo2.txt
+* --------------------------------------------------
+* Debugando o co'digo
+* C:\> gcc programa.c -o nomeDoPrograma -g
+* C:\> gdb nomeDoPrograma
+* Inicializar
+* C:\> (gdb) break main
+* C:\> run
+* Movendo o debuger pelo co'digo
+* C:\> step
+* Para ver o valor de uma varia'vel fac,a:
+* C:\> display variavel
+* Para finalizar
+* C:\> quit
 ****************************************************
 */
 
