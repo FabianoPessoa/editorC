@@ -38,7 +38,28 @@ int main(int argc, char *argv[])
 	FILE *fp;
 	char ch;
 	register int t=1;
-
+/*
+*
+* argc – é um valor inteiro que indica a quantidade 
+* de argumentos que foram passados ao chamar o programa.
+* argv[0] armazena o nome do programa que foi chamado 
+* no prompt, sendo assim, argc é pelo menos igual a 1, 
+* pois no mínimo existirá um argumento.
+* ------------------------------------------------------
+*    #include <stdio.h>
+*    #include <conio.h>
+*    int main( int argc, char *argv[ ] )
+*    {
+*      int cont;
+*      
+*      for(cont=0; cont < argc; cont++)
+*        printf("%d Parametro: %s\n", cont,argv[cont]);
+*      
+*      getch();
+*      return 0;
+*    }
+* --------------------------------------------------------
+*/
 	/* Entrada do Editor*/
 	printf("\n=====================================");
 	printf("\n***********-:{EditorC}:-*************");
