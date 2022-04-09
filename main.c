@@ -27,11 +27,10 @@
 ****************************************************
 */
 
-
-
 /* KTOD: Do teclado para o disco. */
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h> /* include utilizado para utilizar o strcmp */
 
 int main(int argc, char *argv[])
 {	
@@ -71,7 +70,21 @@ int main(int argc, char *argv[])
 		printf("Voce' no digitou o arquivo.\n");
 		exit(1);
 	}
-	
+
+/* --------- alteracao --------- */
+/*
+* Incluida para agregar os comandos de ajuda
+*
+*/
+    if (strcmp(argv[1],"--help")==0){
+        printf("\n help digitado");
+				printf("\n");
+				/* chamar a funcao help*/
+		}
+/* fim da alteracao */ 
+
+
+
 	/* 
 	 * fp=fopen(argc[1],"w")):
 	 * Escreve em cima do arquivo e deixar uma marca EOF de fim de arquivo
